@@ -2,6 +2,7 @@ package cl.camilolillo.kotlinviper.ui.dashboard_module
 
 import cl.camilolillo.kotlinviper.dataManagers.FireBase.AuthDataManager
 import cl.camilolillo.kotlinviper.dataManagers.Local.UserDataManager
+import cl.camilolillo.kotlinviper.utils.Constants
 
 class DashboardInteractor(var interactorOutput: DashboardContract.InteractorOutput):
     DashboardContract.Interactor,
@@ -29,6 +30,12 @@ class DashboardInteractor(var interactorOutput: DashboardContract.InteractorOutp
     //Manager Outputs
     override fun onSignOut() {
         interactorOutput.onSignOut()
+    }
+    override fun onRemoveUserSuccess() {
+        interactorOutput.onRemoveStoredUserSuccess()
+    }
+    override fun onRemoveUserFailure() {
+        interactorOutput.onRemoveStoredUserFailure(Constants.genericErrorMessage)
     }
 
 }
