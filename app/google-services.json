@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "812802960541",
+    "firebase_url": "https://kotlinviper.firebaseio.com",
+    "project_id": "kotlinviper",
+    "storage_bucket": "kotlinviper.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:812802960541:android:d4562afb99a7aaf75eb874",
+        "android_client_info": {
+          "package_name": "cl.camilolillo.kotlinviper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "812802960541-fp10gbp166uhs2grplmb8rlek5u0iq7b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cl.camilolillo.kotlinviper",
+            "certificate_hash": "550ce01e6205c622dfbdf4fe1e920fdb395aa3a6"
+          }
+        },
+        {
+          "client_id": "812802960541-27ff2thhd9ovec8r3f6dovqf66f8m0f7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA47_OjnkeIXZUz4bwZvxeZlXRtpG9Oto8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "812802960541-27ff2thhd9ovec8r3f6dovqf66f8m0f7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
